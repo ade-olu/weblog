@@ -193,6 +193,7 @@ export default {
   font-size: 24px;
   cursor: pointer;
   transition: all 250ms ease;
+  -webkit-tap-highlight-color: transparent !important;
 }
 
 .comment-bg p {
@@ -270,6 +271,7 @@ export default {
   transition: all 250ms ease;
   font-size: 16px;
   font-weight: bold;
+  -webkit-tap-highlight-color: transparent !important;
 }
 
 .c-b:hover {
