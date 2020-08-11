@@ -1,4 +1,4 @@
-# weblog
+# WeBlog
 
 ## Project setup
 ```
