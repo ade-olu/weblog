@@ -23,7 +23,7 @@
       <ul class="list">
           <li v-for="blog in blogs" :key="blog.id">
             <i class="far fa-newspaper"></i>
-            <router-link :to="{ name: 'BlogPost', params: { id: blog.id } }" style="-webkit-tap-highlight-color: transparent !important;">
+            <router-link :to="{ name: 'BlogPost', params: { id: blog.id } }" style="text-decoration: none; -webkit-tap-highlight-color: transparent !important;">
               <span class="l-span">
             {{ blog.title | capitalize }}
               </span>
@@ -124,11 +124,13 @@ export default {
   text-decoration: none !important;
   transition: all 250ms ease;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent !important;
 }
 
 li a {
 color: #000 !important;
 text-decoration: none !important;
+-webkit-tap-highlight-color: transparent !important;
 }
 
 .list li:hover {
@@ -138,6 +140,7 @@ text-decoration: none !important;
 li i {
   margin-right: 0.2em !important;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent !important;
 }
 
 .t {
