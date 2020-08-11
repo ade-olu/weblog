@@ -115,8 +115,8 @@ export default {
         },
         addComments(){
             this.comments.push(this.details)
-            this.details.name = document.querySelector("input[name=name]").value
-            this.details.body = document.querySelector("input[name=comment]").value
+            this.details.name;
+            this.details.body;
             this.total++
         }
     },
