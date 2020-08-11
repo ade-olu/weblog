@@ -139,7 +139,6 @@ export default {
 
 .p {
   height: auto !important;
-  padding-bottom: 2em !important;
 }
 
 .nav {
@@ -287,6 +286,7 @@ export default {
   border: 1px solid #e2e8f0;
   border-radius: 10px;
   padding: 1em !important;
+  margin-bottom: 3em !important;
 }
 
 .c-l {
