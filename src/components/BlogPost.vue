@@ -114,10 +114,11 @@ export default {
             )
         },
         addComments(){
-            this.comments.push(this.details)
-            this.details.name;
-            this.details.body;
-            this.total++
+            if (this.details.name && this.details.body){
+                this.comments.push(this.details)
+                this.details = {}
+                this.total++
+            }
         }
     },
     filters: {
