@@ -23,7 +23,7 @@
       <ul class="list">
           <li v-for="blog in blogs" :key="blog.id">
             <i class="far fa-newspaper"></i>
-            <router-link :to="{ name: 'BlogPost', params: { id: blog.id } }">
+            <router-link :to="{ name: 'BlogPost', params: { id: blog.id } }" style="-webkit-tap-highlight-color: transparent !important;">
               <span class="l-span">
             {{ blog.title | capitalize }}
               </span>
