@@ -3,7 +3,7 @@
 
     <!-- Nav -->
     <div class="nav">
-      <router-link :to="{name: 'Home'}" style="text-decoration: none;">
+      <router-link :to="{name: 'Home'}" style="text-decoration: none; -webkit-tap-highlight-color: transparent !important;">
       <img src="../assets/logo.png" class="logo"/>
        </router-link>
       </div>
