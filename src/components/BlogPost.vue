@@ -12,8 +12,11 @@
       <div class="post">
           <!-- Blog Post Title -->
         <h1 class="p-title">{{ post.title | capitalize }}</h1>
-
         <br>
+
+<!-- Image -->
+        <img src="../assets/image.jpg" class="img">
+        <br><br>
 
         <!-- Blog Post Body -->
         <p class="p-body">{{ post.body | capitalize }}</p>
@@ -158,6 +161,16 @@ export default {
   top: 50%;
   left: 5%;
   transform: translate(-5%, -50%);
+}
+
+.img {
+  width: 50% !important;
+  height: auto !important;
+  background-size: cover !important;
+ position: relative !important;
+ left: 50% !important;
+ transform: translateX(-50%) !important;
+ border-radius: 2px;
 }
 
 .p-title {
@@ -353,8 +366,8 @@ export default {
 
 /* 768px */
 @media screen and (max-width: 768px) {
-.p-title, .p-body {
-  width: 60%;
+.p-title, .p-body, .img {
+  width: 60% !important;
 }
 
 .comment-bg, .comment-input, .comment-sec {
@@ -368,8 +381,8 @@ export default {
 
 /* 575px */
 @media screen and (max-width: 575px) {
-  .p-title, .p-body {
-  width: 80%;
+  .p-title, .p-body, .img {
+  width: 80% !important;
 }
 
   .comment-bg, .comment-input, .comment-sec {
