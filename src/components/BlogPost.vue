@@ -392,6 +392,10 @@ export default {
   transform: translate(-12%, -50%) !important;
 }
 
+.name {
+  width: 10em;
+}
+
 .comment {
   position: relative;
   top: 0;
@@ -399,6 +403,7 @@ export default {
   transform: translate(0, 0) !important;
   margin-top: 1.5em !important;
   margin-left: 4.2em !important;
+  width: 10em;
 }
 }
 
@@ -406,6 +411,11 @@ export default {
 @media screen and (max-width: 320px) {
 .name {
   margin-left: 1.5em !important;
+  width: 9em;
+}
+
+.comment {
+  width: 9em;
 }
 
 .comment, .c-b {
