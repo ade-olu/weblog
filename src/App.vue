@@ -10,7 +10,7 @@
 import blog from './components/Home.vue'
 
 export default {
-  name: 'App'
+  name: 'App',
   components: {
     'blog': blog
   }
